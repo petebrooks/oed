@@ -1,6 +1,6 @@
-defmodule OedTest do
+defmodule OEDTest do
   use ExUnit.Case
-  doctest Oed
+  doctest OED
 
   test "the truth" do
     assert 1 + 1 == 2

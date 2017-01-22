@@ -1,2 +1,2 @@
-defmodule Oed do
+defmodule OED do
 end

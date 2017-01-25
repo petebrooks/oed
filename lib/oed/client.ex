@@ -27,5 +27,5 @@ defmodule OED.Client do
     { :not_found, Poison.Parser.parse!(body) }
   end
 
-  defp handle_response({:error, %{reason: reason}}), do: { :error, reason }
+  defp handle_response({:error, %{body: body}}), do: { :error, body }
 end
